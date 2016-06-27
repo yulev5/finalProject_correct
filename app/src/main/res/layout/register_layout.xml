@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/firstTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="תלמיד חרוץ!"
+        android:textColor="@color/TextIcons"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/secondTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        android:maxLines="3"
+        android:minLines="2"
+        android:text="ואנו נודיע לך ברגע שנמצא עבורך סטודנט מתאים ללמוד איתו"
+        android:textColor="@color/LightPrimaryColor"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/TextIcons"
+        android:hint="אי-מייל"
+        android:textColor="@color/TextIcons"
+        android:textColorHint="@color/TextIcons" />
+
+    <EditText
+        android:id="@+id/txtFullName"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/TextIcons"
+        android:hint="שם מלא"
+        android:textColor="@color/TextIcons"
+        android:textColorHint="@color/TextIcons" />
+
+    <EditText
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/TextIcons"
+        android:hint="מספר טלפון"
+        android:textColor="@color/TextIcons"
+        android:textColorHint="@color/TextIcons" />
+
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/TextIcons"
+        android:hint="גיל"
+        android:textColor="@color/TextIcons"
+        android:textColorHint="@color/TextIcons" />
+
+    <Spinner
+        android:id="@+id/spRealm"
+        style="@style/Base.Widget.AppCompat.Spinner"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/DividerText"
+        android:textColor="#808080"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_shape"
+        android:text="הירשם"
+        android:textColor="@color/PrimaryText"
+        android:textStyle="normal|bold" />
+
+
+</LinearLayout>

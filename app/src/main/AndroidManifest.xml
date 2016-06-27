@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yuvallevy.finalproject_correct">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".UIActivity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.First_Activity">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.FIRSTACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.SemesterActivity">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.SEMESTERACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.CourseActivity">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.COURSEACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.CityActivity">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.CITYACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.SearchResult">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.SEARCHRESULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.RegisteredUserProfile">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.REGISTEREDUSERPROFILE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.Register">
+        <intent-filter>
+            <action android:name="yuvallevy.finalproject_correct.REGISTER" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".UIActivity.MyCoursesList">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.MYCOURSESLIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UIActivity.MakeContact">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.MAKECONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UIActivity.UpdatePersonalDetails">
+            <intent-filter>
+                <action android:name="yuvallevy.finalproject_correct.UPDATEPERSONALDETAILS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">חיפוסטודנט</string>
+    <string name="dynamicStudentName"> נרשמת בהצלחה!</string>
+
+    <string name="firstStudent"> תלמיד חרוץ! אתה הראשון לחפש שותף לקורס זה באיזור שציינת</string>
+    <string name="firstStudentRegistered"> אנו מבטיחים לשלוח לך התראה ברגע שסטודנט חדש יחפש את הקורס באיזור זה</string>
+    <string name="firstStudentNotRegistered"> עלייך לבצע הרשמה ואנו מבטיחים לשלוח לך התראה ברגע שסטודנט חדש יחפש את הקורס באיזור זה</string>
+    <string name="NotFirstStart"> נמצאו</string>
+    <string name="NotFirstEnd"> סטודנטים שמחפשים שותף עבור קורס זה באיזור שלך</string>
+    <string name="NotFirstNotRegiseterd"> עלייך להירשם על מנת לפתוח בשיחה עם</string>
+
+    <string name="updatePrompt"> "בחר מה לעדכן..."</string>
+    <string-array name="spinnerarrayForUpdate">
+        <item>  "אי-מייל"</item>
+        <item> "שם מלא"</item>
+        <item> "מספר טלפון"</item>
+        <item>  "גיל"</item>
+        <item>  "תחום לימודים"</item>
+    </string-array>
+    <string-array name="spinnerarray">
+        <item>  "בחר סמסטר..."</item>
+        <item> "2016א"  </item>
+        <item> "2016ב"  </item>
+        <item>   "2016ג"</item>
+        <item>  "2017א" </item>
+        <item>  "2017ב" </item>
+        <item>  "2017ג" </item>
+    </string-array>
+    <string-array name="spinnerarrayForDeg">
+        <item>  "בחר תחום לימודים..."</item>
+        <item> "כלכלה"</item>
+        <item> "ניהול"</item>
+        <item>   "מדעי המחשב"</item>
+        <item>  "תקשורת"</item>
+    </string-array>
+    <string-array name="spinnerarrayForCourse">
+        <item>  "בחר קורס..."</item>
+        <item> "מבוא למיקרוכלכלה"</item>
+        <item> "מבוא למקרוכלכלה"</item>
+        <item>  "מבוא לסטטיסטיקה א"</item>
+        <item>  "מבוא לסטטיסטיקה ב"</item>
+        <item> "מבוא למדעי המחשב"</item>
+        <item> "ארגון המחשב"</item>
+    </string-array>
+    <string-array name="spinnerarrayForCity">
+        <item>  "בחר איזור לימודים..."</item>
+        <item> "צפון"</item>
+        <item> "חיפה והסביבה"</item>
+        <item>  "עכו - נהריה והסביבה"</item>
+        <item>  "הכינרת והסביבה"</item>
+        <item> "ראש פינה והחולה"</item>
+        <item> "חדרה זיכרון והעמקים"</item>
+        <item> "עמק בית שאן"</item>
+        <item> "עפולה והעמקים"</item>
+        <item> "רמת השרון - הרצליה"</item>
+        <item> "רעננה - כפר סבא"</item>
+        <item> "הוד השרון והסביבה"</item>
+        <item> "מרכז"</item>
+        <item> "תל אביב"</item>
+        <item> "ראשון לציון והסביבה"</item>
+        <item> "רמת גן - גבעתיים"</item>
+        <item> "פתח תקווה והסביבה"</item>
+        <item> "איזור ירושלים"</item>
+        <item> "נס ציונה - רחובות"</item>
+        <item> "גדרה והסביבה"</item>
+        <item> "דרום"</item>
+        <item> "קרית גת והסביבה"</item>
+        <item> "באר שבע והסביבה"</item>
+        <item> "יישובי הנגב"</item>
+        <item> "אילת והערבה"</item>
+    </string-array>
+    <string name="title_activity_profile">חיפוסטודנט</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>

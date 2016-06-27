@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryColor"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="300dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="בחירת קורס"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/TextIcons"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/textMedium"
+            android:layout_width="324dp"
+            android:layout_height="103dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="בחר את התואר אותו אתה לומד וקורס אליו אתה מחפש שותף"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/LightPrimaryColor"
+            android:textSize="20dp"
+            android:textStyle="normal|bold" />
+
+
+        <Spinner
+            android:id="@+id/spinnerForDeg"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/AccentColor"
+            android:textColor="@color/PrimaryText"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/spinnerForCourse"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/AccentColor"
+            android:textColor="@color/PrimaryText"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom|center">
+
+        <Button
+            android:id="@+id/btnProceed2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:text="המשך"
+            android:textColor="@color/PrimaryText"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+</LinearLayout>

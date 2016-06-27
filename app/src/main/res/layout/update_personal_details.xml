@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="300dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="עדכון פרטים אישיים"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/TextIcons"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textMedium"
+            android:layout_width="340dp"
+            android:layout_height="103dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="בחר את הפרט שברצונך לשנות והזן ערך חדש"
+            android:textAlignment="textStart"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/LightPrimaryColor"
+            android:textSize="20dp"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spinnerForUpdate"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/AccentColor"
+            android:prompt="@string/updatePrompt"
+            android:textColor="@color/PrimaryText"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/viewCurrSelectedDetail"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="@color/TextIcons"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="324dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff" />
+
+        <EditText
+            android:id="@+id/txtToEdit"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/TextIcons"
+            android:gravity="right"
+            android:textColor="@color/TextIcons"
+            android:textColorHint="@color/TextIcons" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:progressDrawable="@drawable/circular_progress_bar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom|center">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:text="עדכן"
+            android:textColor="@color/PrimaryText"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+</LinearLayout>
